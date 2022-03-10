@@ -88,7 +88,7 @@ function Calculator() {
                 <div className="calculator-keypad">
                     <div className="input-keys">
                         <div className="function-keys">
-                            <CalculatorKey className="calculator-key key-clear" keyValue={"c"} onClick={handleOperation}>AC</CalculatorKey>
+                            <CalculatorKey className="calculator-key key-clear" keyValue={"c"} onClick={handleOperation}>C</CalculatorKey>
                             <CalculatorKey className="calculator-key key-sign" keyValue={"\xB1"} onClick={handleOperation}>±</CalculatorKey>
                             <CalculatorKey className="calculator-key key-percent" keyValue={"%"} onClick={handleOperation}>%</CalculatorKey>
                         </div>
